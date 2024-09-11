@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: norse;
-    src: url(/Norse-Bold.otf);
+    src: url(Norse-Bold.otf);
 }
 body{
     background-color: rgb(220,220,220);
