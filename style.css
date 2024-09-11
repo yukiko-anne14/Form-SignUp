@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: norse;
+    src: url(/Forms/Sign-Up/Norse-Bold.otf);
+}
+body{
+    background-color: rgb(220,220,220);
+}
+.side-container{
+    margin-top:0;
+}
+.side-container img{
+    height:100vh;
+    position: absolute;  
+}
+.logo{ 
+    color:white;
+    background:black;
+    position: absolute;
+    margin-top: 200px;
+    opacity: 0.7;
+    width: 500px;
+    height:115px;
+}
+.logo img{
+    margin-left: 150px;
+    max-width: 400px;
+    max-height: 95px;  
+    margin-top: 10px; 
+}
+.logo h1{
+    margin-left: 220px;
+    margin-top: 20px;
+    font-family: norse;
+    font-size: 60px;
+}
+.image-credit,.image-credit a {
+    color: white;
+    margin-top:380px;
+    text-align: center;
+    font-size: 12px;
+}
+body{
+    background-color: rgb(220,220,220);
+
+}
+.main-container{
+    margin-left: 530px;
+    padding-top: 80px;
+    width: 750px;
+}
+p:last-child{
+    line-height: 70px;
+}
+.form-container{
+    background-color: white;
+    width:985px;
+    margin-left: 500px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    line-height: 20px;
+    height: 300px;
+    -webkit-box-shadow: -1px 10px 16px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 16px -14px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 16px -14px rgba(0,0,0,0.75);
+
+}
+.form-container p{
+    font-weight: bold;
+}
+p{
+    color: black;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+	
+}
+.input-box label{
+    color: grey;
+    font-weight: bold;
+    display: block; 
+    margin-top: 5px;
+    font-size: 10px;
+}
+input{
+   border-color: 1px solid #E5E7EB;
+   margin-bottom: 20px;
+   padding:7px;
+   width:70%;
+}
+input:invalid{
+    border-color: 1px solid red;
+}
+
+input:focus{
+    border-color:  blue;
+    outline: blue;
+    -webkit-box-shadow: 11px 11px 26px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 11px 26px -13px rgba(0,0,0,0.75);
+    box-shadow: 11px 11px 26px -13px rgba(0,0,0,0.75);
+}
+input[type="email"]:invalid{
+    content: "Passwords do not matched";
+    color:red;
+    font-size: 8px;
+    border-color: 1px solid red;
+}
+.create-Account {
+    margin-top: 20px;
+    margin-left: 530px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #596D48;
+    border:none;
+}
+.account{
+   margin-left: 530px;
+   line-height: 70px;
+   font-size: 14px;
+   color: black;
+}
+#sign-in{
+    color: #596D48;
+    text-decoration: none;
+}
